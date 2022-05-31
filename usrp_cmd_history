@@ -1,0 +1,594 @@
+    1  git clone https://github.com/beiwang2003/Intro_to_Perf_Vectorization.git
+    2  ls
+    3  cd Intro_to_Perf_Vectorization/
+    4  ls
+    5  lscpu
+    6  ls
+    7  vi nbody.cc 
+    8  ls
+    9  vi Makefile 
+   10  vi nbody.cc 
+   11  module load intel
+   12  vi Makefile 
+   13  make app-ICC
+   14  vi nbody.oicc.optrpt 
+   15  ./app-ICC 
+   16  vi nbody.cc 
+   17  vi nbody.
+   18  vi nbody.cc c
+   19  vi nbody.cc
+   20  make app-ICC clean
+   21  vi Makefile 
+   22  make app-ICC
+   23  ./app-ICC 
+   24  make app-ICC clean
+   25  vi Makefile 
+   26  make app-ICC
+   27  ./app-ICC 
+   28  ls
+   29  vi nbody.oicc.optrpt 
+   30  make app-ICC clean
+   31  vi Makefile 
+   32  make app-ICC
+   33  ./app-ICC 
+   34  vi nbody.oicc.optrpt 
+   35  mv nbody.oicc.optrpt nbody.oicc.optrpt-case3
+   36  vi Makefile 
+   37  make app-ICC clean
+   38  make app-ICC
+   39  vi nbody.oicc.optrpt
+   40  ls
+   41  make app-ICC clean
+   42  vi Makefile 
+   43  make app-ICC
+   44  ./app-ICC 
+   45  ls
+   46  vi nbody.
+   47  vi nbody.cc 
+   48  make app-ICC clean
+   49  make app-ICC
+   50  ./app-ICC 
+   51  vi nbody.oicc.optrpt
+   52  vi nbody.cc 
+   53  vi Makefile 
+   54  make app-ICC clean
+   55  make app-ICC
+   56  vi nbody.oicc.optrpt
+   57  ./app-ICC 
+   58  vi nbody.cc 
+   59  make app-ICC clean
+   60  vi Makefile 
+   61  make app-ICC
+   62  ./app-ICC 
+   63  vi nbody.oicc.optrpt
+   64  vi Makefile 
+   65  make app-ICC clean
+   66  make app-ICC
+   67  ./app-ICC 
+   68  vi nbody.oicc.optrpt
+   69  ls
+   70  vi nbody.oicc.optrpt
+   71  vi Makefile 
+   72  make app-ICC clean
+   73  make app-ICC
+   74  vi nbody.oicc.optrpt
+   75  ./app-ICC 
+   76  vi Makefile 
+   77  make app-ICC clean
+   78  make app-ICC
+   79  vi nbody.oicc.optrpt
+   80  vi nbody.cc 
+   81  ./app-ICC 
+   82  make app-ICC clean
+   83  make app-ICC
+   84  ./app-ICC 
+   85  vi nbody.cc 
+   86  vi nbody.oicc.optrpt
+   87  vi Makefile 
+   88  module load intel intel-advisor
+   89  cd Intro_to_Perf_Vectorization/
+   90  ls
+   91  vi submit
+   92  vi submit.slurm 
+   93  vi submit_to_scheduler.sh 
+   94  ./submit_to_scheduler.sh 
+   95  ls
+   96  advixe-gui nbody-advisor/
+   97  advixe-gui nbody-advisor
+   98  echo $DISPLAY
+   99  cd Intro_to_Perf_Vectorization/
+  100  advixe-gui nbody-advisor
+  101  module load intel intel-advisor
+  102  advixe-gui nbody-advisor
+  103  echo $DISPLAY
+  104  cd Intro_to_Perf_Vectorization/
+  105  ls
+  106  make app-ICC clean
+  107  vi Makefile 
+  108  make app-ICC
+  109  module load intel
+  110  make app-ICC
+  111  vi Makefile 
+  112  make app-ICC
+  113  vi nbody.oicc.optrpt
+  114  ./app-ICC 
+  115  cd Intro_to_Perf_Vectorization/
+  116  module load intel intel-advisor
+  117  advixe-gui nbody-advisor
+  118  cp –r /home/ethier/Fall_Bootcamp_2019 .
+  119  cp –r /home/ethier/Fall_Bootcamp_2019/ .
+  120  ls /home/ethier/Fall_Bootcamp_2019/
+  121  cp -rp /home/ethier/Fall_Bootcamp_2019/ .
+  122  ls
+  123  cd Fall_Bootcamp_2019/
+  124  ls
+  125  module load pgi
+  126  cd OPENACC/
+  127  cd C
+  128  ls
+  129  make
+  130  vi Makefile 
+  131  make clean
+  132  make all
+  133  Make
+  134  vi Makefile 
+  135  ls
+  136  vi README 
+  137  vi slurm_script 
+  138  vi Makefile 
+  139  make jacobi
+  140  make exercise.c 
+  141  make exercise
+  142  ls
+  143  vi slurm_script 
+  144  sbatch slurm_script 
+  145  squeue -u changgoo
+  146  ls
+  147  man squeue
+  148  slurm watch q
+  149  module load slurm
+  150  mdoule avail slurm
+  151  module avail
+  152  module list
+  153  which srun
+  154  which squeue
+  155  ls
+  156  cd Fall_Bootcamp_2019/
+  157  ls
+  158  cd ..
+  159  ls
+  160  git clone git@github.com:pmelchior/usrp-sciprog.git
+  161  ls /.ssh
+  162  ls .ssh
+  163  ssh-keygen -t ecdsa
+  164  cat .ssh/id_ecdsa
+  165  ls .ssh
+  166  cat .ssh/id_ecdsa.pub
+  167  git clone git@github.com:pmelchior/usrp-sciprog.git
+  168  ls -alh
+  169  pwd
+  170  ls -alh
+  171  cd usrp-sciprog/
+  172  ls
+  173  pwd
+  174  touch test_file
+  175  ls -alh test_file
+  176  chmod 600 test_file 
+  177  ls -alh test_file
+  178  clear
+  179  rm test_file 
+  180  clear
+  181  touch test_file
+  182  ls -alh
+  183  ls -alh test_file 
+  184  chmod 600 test_file
+  185  ls -alh test_file
+  186  rm test_file 
+  187  ls -alh
+  188  clear
+  189  touch test_file
+  190  ls -alh test_file
+  191  chmod 600 test_file
+  192  ls -alh test_file 
+  193  rm test_file 
+  194  ls -alh
+  195  clear
+  196  mkdir test_directory
+  197  ls -alh test_directory/
+  198  ls -alh test_directory
+  199  ls -alh ./test_directory
+  200  rm test_directory/
+  201  rm test_directory
+  202  rm -f test_directory/
+  203  cd test_directory/
+  204  ls
+  205  cd ..
+  206  clear
+  207  rm -rf test_directory/
+  208  clear
+  209  mkdir test_directory
+  210  ls -alh
+  211  cd test_directory/
+  212  ls
+  213  ls -alh
+  214  cd ..
+  215  ls
+  216  rm test_directory/
+  217  man rm
+  218  rm -d test_directory/
+  219  clear
+  220  ls
+  221  vi ~/.bashrc 
+  222  cat ~/.bashrc 
+  223  clear
+  224  cat ~/.bashrc
+  225  less ~/.bashrc
+  226  more ~/.bashrc 
+  227  tail ~/.bashrc
+  228  tail ~/.bash_history 
+  229  clear
+  230  tail ~/.bash_history 
+  231  module list
+  232  module avail
+  233  man more
+  234  man less
+  235  clear
+  236  man vi
+  237  vimtutor
+  238  cd usrp-sciprog/
+  239  compgen
+  240  uname -a
+  241  man uname
+  242  uname -r
+  243  uname -v
+  244  which sh
+  245  top
+  246  which top
+  247  man top
+  248  ls
+  249  ls -alh
+  250  history
+  251  clear
+  252  cd
+  253  pwd
+  254  mkdir exercise1
+  255  cd exercise1/
+  256  pwd
+  257  touch file{1,...10}
+  258  ls
+  259  touch file{1...10}
+  260  ls
+  261  rm *
+  262  touch file{1..10}
+  263  ls
+  264  ls -alh
+  265  ls -l
+  266  ls -l > file_list
+  267  cat file_list
+  268  chmod 666 *
+  269  ls
+  270  ls -l
+  271  cd
+  272  rm -rd exercise1/
+  273  ls
+  274  history
+  275  ps
+  276  ps -aux
+  277  ps -aux | grep changgoo
+  278  vi ~/.bash_profile 
+  279  vi ~/.bashrc 
+  280  mkdir usrp_working
+  281  ls
+  282  cdwork
+  283  source ~/.bash_profile 
+  284  cdwork
+  285  ps -aux | grep changgoo
+  286  module avail
+  287  ls
+  288  checkquota
+  289  cd /scratch/network/
+  290  ls
+  291  mkdir changgoo
+  292  ls
+  293  cd changgoo
+  294  ls
+  295  pwd
+  296  ls -alh
+  297  git clone git@github.com:PrincetonUniversity/athena.git
+  298  ls
+  299  cd athena/
+  300  ls
+  301  module avail
+  302  which python
+  303  module load anaconda3/2021.11
+  304  python configure.py --prob shock_tube
+  305  make 
+  306  make clean
+  307  make -j 
+  308  cd ..
+  309  ls
+  310  mkdir usrp-athena
+  311  cd usrp-athena/
+  312  cp ../athena/bin/athena .
+  313  cp ../athena/inputs/hydro/athinput.sod .
+  314  ./athena -i athinput.sod 
+  315  l
+  316  ls ../athena/vis/python/
+  317  ls ../athena/vis/python/plot_lines.py 
+  318  history
+  319  head Sod.block0.out1.00000.tab 
+  320  cat athinput.sod 
+  321  vi conv_test.sh
+  322  {1..8..2}
+  323  {1..8}
+  324  echo {1..8}
+  325  echo {1..8..2}
+  326  $((2**2))
+  327  echo $((2**2))
+  328  echo $((2**3))
+  329  vi conv_test.sh 
+  330  chomd 755 conv_test.sh 
+  331  chmod 755 conv_test.sh 
+  332  ./conv_test.sh 
+  333  vi conv_test.sh 
+  334  ./conv_test.sh 
+  335  vi conv_test.sh 
+  336  ./conv_test.sh 
+  337  ls
+  338  ./conv_test.sh 
+  339  vi conv_test.sh 
+  340  ./conv_test.sh 
+  341  ls
+  342  lsls
+  343  ls
+  344  vi conv_test.sh 
+  345  ./conv_test.sh 
+  346  ls
+  347  pip install sodshock
+  348  which conda
+  349  conda env create usrp
+  350  conda env create --name usrp
+  351  conda create --name usrp
+  352  module list
+  353  ls
+  354  conda env --list
+  355  module load anaconda3/2021.11
+  356  conda activate usrp
+  357  pip install sodshock
+  358  conda install pip
+  359  conda deactivate
+  360  conda remove --name usrp
+  361  conda remove --name usrp --all
+  362  conda create --name usrp
+  363  conda activate usrp
+  364  conda env list
+  365  conda create --name usrp
+  366  conda activate usrp
+  367  conda install pip
+  368  pip install sodshock
+  369  jupyter --list
+  370  jupyter notebook --list
+  371  conda install jupyter
+  372  ls
+  373  cd /scratch/network/
+  374  ls
+  375  cd changgoo
+  376  ls
+  377  cd usrp-athena/
+  378  ls
+  379  vi athinput.sod 
+  380  cd ../bin
+  381  cd ../athena/
+  382  python configure.py --prob shock_tube
+  383  vi ~/.bashrc 
+  384  module load anaconda
+  385  vi ~/.bashrc 
+  386  source ~/.bashrc 
+  387  module_usrp 
+  388  ls
+  389  python configure.py --prob shock_tube --nghost=4
+  390  make clean
+  391  make all -j
+  392  cd ../usrp-athena/
+  393  ls
+  394  cp ../athena/bin/athena .
+  395  vi conv_test.sh 
+  396  ./conv_test.sh 
+  397  vi conv_test.sh 
+  398  ./conv_test.sh 
+  399  ls
+  400  vi conv_test.sh 
+  401  ./conv_test.sh 
+  402  vi athinput.sod 
+  403  vi conv_test.sh 
+  404  ./conv_test.sh 
+  405  cd ..
+  406  ls
+  407  cd athena/
+  408  python configure.py --prob shock_tube --nghost=4
+  409  cd ../usrp-athena/
+  410  vi conv_test.sh 
+  411  ./conv_test.sh 
+  412  ls
+  413  vi conv_test.sh 
+  414  ./conv_test.sh 
+  415  vi conv_test.sh 
+  416  ./conv_test.sh 
+  417  ls
+  418  conda env --list
+  419  conda env list
+  420  vi ~/.bashrc
+  421  vi ~/.bash_profile 
+  422  conda activate usrp
+  423  conda activate usrp
+  424  ls
+  425  which pip
+  426  pip install -U poetry pip
+  427  ls
+  428  cd usrp_working/
+  429  ls
+  430  poetry --new demo
+  431  poetry new --src demo
+  432  ls
+  433  cd demo/
+  434  ls
+  435  conda install requests
+  436  conda install jupyterlab
+  437  checkquota
+  438  ls
+  439  pwd
+  440  cd ../test/
+  441  ls
+  442  vi pyproject.toml 
+  443  poetry add -D jupyterlab
+  444  poetry add jupyterlab
+  445  poetry add -D certifi
+  446  conda install certipi
+  447  conda install certifi
+  448  poetry --version
+  449  pip -U poetry
+  450  pip install -U poetry
+  451  poetry --version
+  452  poetry add -D jupyterlab
+  453  ls
+  454  cd tests
+  455  ls
+  456  cat test_sin.py 
+  457  cat test_test.py 
+  458  ls
+  459  cd ../tests/
+  460  cd ../src/
+  461  ls
+  462  cd test/
+  463  ls
+  464  vi __init__.py 
+  465  vi test.py 
+  466  ls /home/changgoo/.conda/envs/usrp/lib/python3.9/test
+  467  ls
+  468  git clone git@github.com:jakevdp/WhirlwindTourOfPython.git
+  469  cd WhirlwindTourOfPython/
+  470  ls
+  471  cd ..
+  472  git clone git@github.com:changgoo/WhirlwindTourOfPython.git WhirlwindTourOfPython-usrp
+  473  cd WhirlwindTourOfPython-su
+  474  cd WhirlwindTourOfPython-usrp/
+  475  ls
+  476  git checkout -b usrp
+  477  pwd
+  478  ls
+  479  ls -a
+  480  ls -al
+  481  clear
+  482  ls
+  483  mkdir usrp_working
+  484  ls
+  485  cd usrp_working/
+  486  ls
+  487  cd ..
+  488  mkdir usrp_test
+  489  cd usrp_test/
+  490  ls
+  491  ls -al
+  492  cd ..
+  493  cd usrp_test/
+  494  pwd
+  495  touch file1
+  496  ls -al
+  497  touch file2
+  498  touch file3
+  499  touch file4
+  500  touch file5
+  501  mkdir folder1
+  502  mkdir folder2
+  503  ls
+  504  tree .
+  505  tree
+  506  man tree
+  507  tree ./
+  508  cd ..
+  509  tree usrp_test/
+  510  cd usrp_test/
+  511  ls
+  512  rm file1
+  513  rm file2
+  514  ls
+  515  rm file[4-5]
+  516  ls
+  517  touch file{1..10}
+  518  ls
+  519  rm *
+  520  cd folder1/
+  521  touch file{1..10}
+  522  ls
+  523  cd ..
+  524  ls
+  525  rm -d folder2/
+  526  ls
+  527  rm -d folder1/
+  528  rm -rd folder1/
+  529  ls
+  530  man rm
+  531  ls
+  532  touch file1
+  533  ls
+  534  ls -alh
+  535  clear
+  536  ls -alh
+  537  chmod 660 file1 
+  538  ls -alh
+  539  man chmod
+  540  ls
+  541  touch file[1..10]
+  542  ls
+  543  touch file{1..10}
+  544  ls
+  545  ls -alh
+  546  clear
+  547  ls -alh > file_list
+  548  ls
+  549  ls -alh
+  550  cat file_list 
+  551  more file_list 
+  552  less file_list 
+  553  head file_list 
+  554  head -n 5 file_list 
+  555  tail -n 5 file_list 
+  556  ls
+  557  ls -alh >> file_list
+  558  cat file_list 
+  559  ls
+  560  mkdir test_folderr
+  561  mv file_list test_folderr/
+  562  ls
+  563  cd test_folderr/
+  564  ls
+  565  cd ..
+  566  ls
+  567  cp test_folderr/file_list .
+  568  ls
+  569  ls test_folderr/
+  570  pwd
+  571  cd test_folderr/
+  572  cp file_list ../
+  573  pwd
+  574  cd
+  575  cd usrp_test/
+  576  ls
+  577  cd ~
+  578  cd usrp_test/test_folderr/
+  579  ls
+  580  history 
+  581  man history
+  582  ls
+  583  cd ..
+  584  ls
+  585  grep file3 *
+  586  grep -r file3 *
+  587  ls
+  588  cd
+  589  cd usrp_test/
+  590  ls
+  591  vi file_list 
+  592  cat file_list 
+  593  history
+  594  history > usrp_cmd_history
